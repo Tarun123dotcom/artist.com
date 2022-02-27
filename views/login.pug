@@ -1,0 +1,30 @@
+html 
+    head 
+        title Artist | Log In 
+        style 
+            include style4.css 
+        
+        body 
+            div#logo
+                img(src="https://thumbs.dreamstime.com/b/artist-text-logo-paint-brush-black-colour-flat-minimal-vector-logo-style-artist-text-logo-paint-brush-black-164108116.jpg", alt="logo")
+            nav#navbar
+                ul 
+                        
+                    li#home #[a(href="/") Home]
+                    li#about #[a(href="about") About]
+                    li#contact #[a(href="/contactus") Contact Us]
+                    li#login #[a(href="/login") Log in]
+            div.container
+                form(action="/login", id="form", method="post")
+                    label(for="userName",class="label") USER NAME :  
+                    input(type="text", id="userName",class="inputs",name="user")
+                   
+                    label(for="password",class="label") PASSWORD :
+                    input(type="text", id="password",class="inputs",name="pass")
+                   
+                    button#btn LOGIN 
+            div.container2
+                p  NEW TO  THIS WEBSITE CLICK ON THIS BUTTON TO REGISTER 
+                li#btn2 #[a(href="/register" id="link2") Register]  
+            footer#footer 
+                p  Copyrights © 2021 Artist.com | All rights reserved

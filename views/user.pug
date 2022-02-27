@@ -1,0 +1,20 @@
+html 
+    head 
+        style 
+            include userstyle.css 
+        
+        body 
+            div#logo
+                img(src="https://thumbs.dreamstime.com/b/artist-text-logo-paint-brush-black-colour-flat-minimal-vector-logo-style-artist-text-logo-paint-brush-black-164108116.jpg", alt="logo")
+            nav#navbar
+                ul 
+                        
+                    li#home #[a(href="/home2") Home]
+                    li#about #[a(href="/about2") About]
+                    li#contact #[a(href="/contact2") Contact Us]
+                    li#login #[a(href="/user") User]
+            div.container
+                form(action="/user", method="post")
+                    button#btn LOG OUT  
+            footer#footer 
+                p  Copyrights © 2021 Artist.com | All rights reserved

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap');
+#navbar li{
+    list-style: none;
+    padding: 15px;
+}
+#navbar li a{
+    text-decoration: none;
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 13px;
+    color: white;
+    font-size: 1.25rem;
+}
+#navbar li a:hover{
+    background-color: blanchedalmond;
+    color: black; 
+    /* font-size: 1rem; */
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+#navbar{
+    background-color: black;
+    max-width: 500px;
+    border-radius: 30px;
+    height: 52px;
+    position: relative;
+    left: 100px;
+    bottom: 75px;
+}
+#artistheading{
+    display: flex;
+    justify-content: center;
+    color: #ff00f7;
+    font-size: 6rem;
+    font-weight: 600;
+    text-shadow: 6px 4px #ccc;
+    font-family: 'Baloo Thambi 2', cursive;
+    /* transition: 0.5s; */
+}
+
+body{
+    background-image:url("https://cdn.mos.cms.futurecdn.net/kbQ3rpQhDEcYQiiPoysSHH.jpg") ;
+}
+p{
+    color: #6505ff;
+    font-size: 30px;
+}
+h3{
+    font-size: 3rem;
+}
+#loginnote{
+    position: relative;
+    left: 485px;
+    border: 2px solid red;
+    max-width: 422px;
+    padding: 11px;
+    border-radius: 27px;
+    background-color: black;
+
+}
+#vijay{
+    border: 2px solid black;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 13px;
+}
+#radha{
+    border: 2px solid black;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 13px;
+}
+#tirumala{
+    border: 2px solid black;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 13px;
+}
+#channel{
+    border: 2px solid black;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 13px;
+}
+#firstytlink{
+    border: 2px solid black;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 13px;
+}
+#logo img{
+    width: 63px;
+    height: 63px;
+    border-radius: 5px;
+    filter: invert(1);
+}
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+#footer{
+    background-color: black;
+    color: white;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    position: relative;
+    top: 10px;
+}
+#footer p{
+    color: white;
+    font-size: 14px;
+}
+#body{
+    position: relative;
+    bottom: 100px;
+}
+.link:hover{
+    background-color: blanchedalmond;
+    color: black; 
+}
+.link{
+    transition: all 0.3s;
+}

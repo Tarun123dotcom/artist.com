@@ -1,0 +1,29 @@
+doctype html
+html 
+    head
+        title Artist | Contact Us 
+        style 
+            include style3.css 
+        
+        body 
+            div#logo
+                img(src="https://thumbs.dreamstime.com/b/artist-text-logo-paint-brush-black-colour-flat-minimal-vector-logo-style-artist-text-logo-paint-brush-black-164108116.jpg", alt="logo")
+            nav#navbar
+                ul 
+                        
+                    li#home #[a(href="/home2") Home]
+                    li#about #[a(href="about2") About]
+                    li#contact #[a(href="/contact2") Contact Us]
+                    li#login #[a(href="/user") User]
+            div.container
+                h1 Contact Us 
+                form(action="/contactus" method = "post" class="myForm") 
+                    label(for="Name",id="lableforname",class="label") Name: #[input(type="text", class="myInput", name="name", placeholder="Enter Your Name", id="Name")]
+                    label(for="Age",class="label") Age : #[input(type="text", class="myInput", name="age", placeholder="Enter Your Age",id="Age")]
+                    label(for="EmailId",class="label") Email ID : #[input(type="email", name="emailId",class="myInput",placeholder="Enter Your Valid Email Id",id="EmailId")]
+                    label(for="MoNo",class="label") Mobile No :  #[input(type="phone", name="mobileNO", class="myInput",placeholder="Enter Your Mobile Number", id="MoNo")]
+                    label(for="Message",class="label") Message : #[input(type="text", class="myInput", name="message", placeholder="Enter Your Message", id="Message")]
+                    button(class="btn")
+                            | Submit
+            footer#footer 
+                p  Copyrights © 2021 Artist.com | All rights reserved
